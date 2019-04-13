@@ -720,3 +720,10 @@ Processing by ApplicationController#index as HTML
 Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/stuff" for ::1 at 2019-04-13 12:04:44 -0700
+Processing by ApplicationController#stuff as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
