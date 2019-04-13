@@ -5,7 +5,15 @@ class ApplicationController < ActionController::Base
     render html: "hello, world!"
   end
 
-  def stuff
-    render html: "helooooo"
+  def create
+    render html: "create route"
+  end
+
+  def read
+    render html: "read route"
+  end
+
+  def delete
+    render html: "delete route"
   end
 end
