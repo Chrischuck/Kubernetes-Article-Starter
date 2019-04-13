@@ -1,12 +1,12 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+require 'json'
 
-  def index
-    render html: "hello, world!"
-  end
+class ApplicationController < ActionController::Base
+  skip_before_action :verify_authenticity_token  
 
   def create
-    render html: "create route"
+    body = JSON.parse(request.body.read)
+    puts body['title']
+     
   end
 
   def read
