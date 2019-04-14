@@ -6,14 +6,17 @@ class ApplicationController < ActionController::Base
   def create
     body = JSON.parse(request.body.read)
 
-    @workout = Workout.create({
+    workout = Workout.create({
       :title => body['title'],
-      :textdata => body['text']
+      :textdata => body['text'],
+      :createdat => body['date']
     })
+
+    render json: { workoutId: workout.id }
   end
 
   def read
-    render html: "read route"
+    render json: Workout.all
   end
 
   def delete
