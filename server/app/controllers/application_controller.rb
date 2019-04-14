@@ -20,6 +20,18 @@ class ApplicationController < ActionController::Base
   end
 
   def delete
-    render html: "delete route"
+    params = request.query_parameters
+
+    id = params["id"]
+
+    if !id 
+      render json: { error: "No ID present" }
+      return
+    end
+
+    
+    workout = Workout.find_by(id: id)
+    workout.destroy
+    render json: { workoutId: workout['id'] }
   end
 end
