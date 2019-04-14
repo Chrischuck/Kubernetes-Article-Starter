@@ -28,7 +28,6 @@ class ApplicationController < ActionController::Base
       render json: { error: "No ID present" }
       return
     end
-
     
     workout = Workout.find_by(id: id)
     workout.destroy
