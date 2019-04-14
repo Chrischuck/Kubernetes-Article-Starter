@@ -8,8 +8,8 @@ class ApplicationController < ActionController::Base
 
     workout = Workout.create({
       :title => body['title'],
-      :textdata => body['text'],
-      :createdat => body['date']
+      :textdata => body['textdata'],
+      :createdat => body['createdat']
     })
 
     render json: { workoutId: workout.id }
