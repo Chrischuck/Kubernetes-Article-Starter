@@ -33,7 +33,7 @@ export default class extends Component {
       return
     }
 
-    pushWorkout(workout)
+    pushWorkout(response)
 
     this.setState({ text: '', title: '' })
   }

@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
       :createdat => body['createdat']
     })
 
-    render json: { workoutId: workout.id }
+    render json: workout
   end
 
   def read

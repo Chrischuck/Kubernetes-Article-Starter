@@ -2914,3 +2914,326 @@ Processing by ApplicationController#read as */*
 Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/read" for ::1 at 2019-04-14 14:46:47 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.4ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:47:08 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (2.2ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:47:51 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.5ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:48:09 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.7ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:48:23 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.9ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:49:58 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (2.3ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:50:00 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.4ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:50:32 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:50:41 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.9ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:51:10 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.3ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:51:22 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (2.6ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:51:23 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:51:30 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.4ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:52:02 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (4.6ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:53:13 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.1ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:56:44 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (2.0ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 19ms (Views: 8.9ms | ActiveRecord: 7.3ms)
+
+
+Started POST "/create" for ::1 at 2019-04-14 14:56:47 -0700
+Processing by ApplicationController#create as */*
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:9
+  [1m[36mWorkout Create (1.4ms)[0m  [1m[32mINSERT INTO "workout" ("title", "textdata", "createdat") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asdf"], ["textdata", "asdf"], ["createdat", "2019-04-14 21:56:47.673000"]]
+  ↳ app/controllers/application_controller.rb:9
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:9
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/delete?id=13" for ::1 at 2019-04-14 14:56:49 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"13"}
+  [1m[36mWorkout Load (1.4ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (0.9ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 13]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:56:51 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:57:48 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (2.0ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/delete?id=12" for ::1 at 2019-04-14 14:57:50 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"12"}
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.1ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 12]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 6.4ms)
+
+
+Started POST "/delete?id=11" for ::1 at 2019-04-14 14:57:51 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mWorkout Load (1.1ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.2ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/delete?id=10" for ::1 at 2019-04-14 14:57:51 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.1ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 6.6ms)
+
+
+Started POST "/delete?id=9" for ::1 at 2019-04-14 14:57:52 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.1ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 6.1ms)
+
+
+Started POST "/delete?id=8" for ::1 at 2019-04-14 14:57:52 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mWorkout Load (1.1ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.0ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/delete?id=7" for ::1 at 2019-04-14 14:57:52 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"7"}
+  [1m[36mWorkout Load (1.0ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.0ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 5.5ms)
+
+
+Started POST "/delete?id=6" for ::1 at 2019-04-14 14:57:52 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.2ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 5.5ms)
+
+
+Started POST "/delete?id=5" for ::1 at 2019-04-14 14:57:52 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mWorkout Load (1.6ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.8ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 8.1ms)
+
+
+Started POST "/delete?id=4" for ::1 at 2019-04-14 14:57:53 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (1.3ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/delete?id=1" for ::1 at 2019-04-14 14:57:54 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mWorkout Load (1.2ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (3.4ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/read" for ::1 at 2019-04-14 14:57:56 -0700
+Processing by ApplicationController#read as */*
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT "workout".* FROM "workout"[0m
+  ↳ app/controllers/application_controller.rb:19
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/create" for ::1 at 2019-04-14 14:57:58 -0700
+Processing by ApplicationController#create as */*
+  [1m[35m (3.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:9
+  [1m[36mWorkout Create (1.1ms)[0m  [1m[32mINSERT INTO "workout" ("title", "textdata", "createdat") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "asdfas"], ["textdata", "dasdfasdf"], ["createdat", "2019-04-14 21:57:58.560000"]]
+  ↳ app/controllers/application_controller.rb:9
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:9
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/delete?id=14" for ::1 at 2019-04-14 14:58:00 -0700
+Processing by ApplicationController#delete as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT  "workout".* FROM "workout" WHERE "workout"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:32
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/application_controller.rb:33
+  [1m[36mWorkout Destroy (0.7ms)[0m  [1m[31mDELETE FROM "workout" WHERE "workout"."id" = $1[0m  [["id", 14]]
+  ↳ app/controllers/application_controller.rb:33
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/application_controller.rb:33
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 4.6ms)
+
+
