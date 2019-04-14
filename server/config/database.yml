@@ -13,8 +13,8 @@ development:
   adapter: postgresql
   database: workout
   host: localhost
-  username: pguser
-  password: pguser_password
+  username: user
+  password: password
   port: 5432
   pool: 5
 

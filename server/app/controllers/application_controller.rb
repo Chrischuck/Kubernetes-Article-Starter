@@ -5,8 +5,11 @@ class ApplicationController < ActionController::Base
 
   def create
     body = JSON.parse(request.body.read)
-    puts body['title']
-     
+
+    @workout = Workout.create({
+      :title => body['title'],
+      :textdata => body['text']
+    })
   end
 
   def read
