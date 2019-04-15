@@ -1,13 +1,15 @@
 FROM ruby:2.4.2-alpine
 
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN apk update && apk add build-base nodejs postgresql-dev
 
-ENV INSTALL_PATH /app
-
-ADD . /app
+RUN mkdir app
 WORKDIR /app
 
-RUN  gem install bundler -v 1.17.3
+COPY Gemfile /app/Gemfile
+COPY Gemfile.lock /app/Gemfile.lock
+
 RUN bundle install
+
+ADD . app
 
 CMD ["rails", "server", "-e", "production"]
