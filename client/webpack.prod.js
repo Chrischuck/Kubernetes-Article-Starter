@@ -1,6 +1,5 @@
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const DotenvPlugin = require('webpack-dotenv-plugin');
 
 const webpackConfig = {
   resolve: {
@@ -42,6 +41,7 @@ const webpackConfig = {
     port: 8080
   },
   plugins: [
+    new webpack.DefinePlugin({ 'process.env.API_URI': JSON.stringify(process.env.API_URI) }),
     new HtmlWebpackPlugin({
       title: 'Kubernetes Example',
       template: './src/index.html',
@@ -60,13 +60,5 @@ const webpackConfig = {
   ]
 };
 
-if (process.env.NODE_ENV !== 'production') {
-  webpackConfig.plugins.push(    
-    new DotenvPlugin({
-      sample: './.env.default',
-      path: './.env'
-    })
-  )
-}
 
 module.exports = webpackConfig;
