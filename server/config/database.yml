@@ -6,12 +6,3 @@ development:
   password: password
   port: 5432
   pool: 5
-
-production:
-  adapter: postgresql
-  database: workout
-  host: db
-  username: user
-  password: password
-  port: 5432
-  pool: 5
