@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const DotenvPlugin = require('webpack-dotenv-plugin');
 
 const webpackConfig = {
@@ -60,13 +59,5 @@ const webpackConfig = {
   ]
 };
 
-if (process.env.NODE_ENV !== 'production') {
-  webpackConfig.plugins.push(    
-    new DotenvPlugin({
-      sample: './.env.default',
-      path: './.env'
-    })
-  )
-}
 
 module.exports = webpackConfig;

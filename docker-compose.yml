@@ -1,5 +1,23 @@
 version: '3.3'
 services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: client
+    command: npm run start
+    environment:
+      - API_URI=http://localhost:3000
+    ports:
+      - '8080:8080'
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: server
+    command: rails server -e production
+    ports:
+      - '3000:3000'
   db:
     image: postgres
     restart: always
