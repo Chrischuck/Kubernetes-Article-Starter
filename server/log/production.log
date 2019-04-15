@@ -1,0 +1,14 @@
+I, [2019-04-15T09:31:44.655308 #5892]  INFO -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d] Started POST "/create" for 127.0.0.1 at 2019-04-15 09:31:44 -0700
+I, [2019-04-15T09:31:44.656868 #5892]  INFO -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d] Processing by ApplicationController#create as */*
+I, [2019-04-15T09:31:44.656964 #5892]  INFO -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d]   Parameters: {"{\n\t\"text\": \"workout\",\n\t\"title\": \"title\",\n\t\"date\": \"2019-04-14T18:28:38.502Z\"\n}"=>nil}
+I, [2019-04-15T09:31:44.668106 #5892]  INFO -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d] Completed 500 Internal Server Error in 11ms
+F, [2019-04-15T09:31:44.669038 #5892] FATAL -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d]   
+F, [2019-04-15T09:31:44.669165 #5892] FATAL -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d] PG::ConnectionBad (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+):
+F, [2019-04-15T09:31:44.669224 #5892] FATAL -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d]   
+F, [2019-04-15T09:31:44.669276 #5892] FATAL -- : [367a6ff8-0870-477b-aff2-7ce660bdb51d] app/controllers/application_controller.rb:9:in `create'

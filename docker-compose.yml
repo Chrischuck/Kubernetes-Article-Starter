@@ -1,5 +1,19 @@
 version: '3.3'
 services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: workout
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - '5432:5432'
+    expose:
+      - '5432'
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - my-db:/var/lib/postgres
   client:
     build:
       context: ./client
@@ -15,22 +29,11 @@ services:
       context: ./server
       dockerfile: Dockerfile
     image: server
-    command: rails server -e production
+    command:  bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -e production"
     ports:
       - '3000:3000'
-  db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_DB: workout
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-    ports:
-      - '5432:5432'
-    expose:
-      - '5432'
-    volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-      - my-db:/var/lib/postgres
+    # Allows us to reference the postgres container inside our rails application
+    links:
+      - "db:db"
 volumes:
   my-db:
