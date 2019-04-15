@@ -1,6 +1,6 @@
 FROM ruby:2.4.2-alpine
 
-RUN apk update && apk add build-base nodejs postgresql-dev
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 
 ENV INSTALL_PATH /app
 
