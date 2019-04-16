@@ -20,8 +20,6 @@ services:
       dockerfile: Dockerfile
     image: client
     command: npm run start
-    environment:
-      - API_URI=http://localhost:3000
     ports:
       - '8080:8080'
   server:
