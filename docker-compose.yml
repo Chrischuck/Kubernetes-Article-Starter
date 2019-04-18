@@ -1,18 +1,13 @@
 version: '3.3'
 services:
   db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_DB: workout
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    image: database
     ports:
       - '5432:5432'
-    expose:
-      - '5432'
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - my-db:/var/lib/postgres
   client:
     build:
